@@ -1,0 +1,113 @@
+.text-1{
+    text-align: left;
+    font-weight: 500;
+font-size: 51.7668px;
+margin-top: 100px;
+line-height: 78px;
+}
+.text-2{
+margin-top: 20px;
+font-size: 26px;
+line-height: 39px;
+}
+.text-3{
+    
+    margin-top: 30px;
+}
+.signup-section{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 0px;
+    text-align: left;
+    padding-left: 160px;
+    /* align-items: center;
+    justify-content: center; */
+}
+.link-text{
+    color:black;
+    margin-top: 10px;
+text-decoration: none;
+margin-bottom: 30px;
+}
+.link-text:hover{
+    color:blue;
+}
+
+.login-form{
+    border-radius: 10px;
+    /* //padding:70px; */
+    background-color: white;
+    
+    height: 200px;
+/* margin-top: 22vh; */
+}
+.form-group{ 
+    display: flex;
+    flex-direction: column;
+}
+.form-email-control{
+    height:60px;
+    border-radius: 5px;
+    width:425px;
+    background: rgba(196, 196, 196, 0.25);
+    border: 1px solid rgba(196, 196, 196, 0.25);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left:20px;
+    /* innershadows */
+    box-shadow: inset 4px -4px 8px rgba(196, 196, 196, 0.1), inset -4px 4px 8px rgba(196, 196, 196, 0.1);
+    margin-bottom: 10px;
+
+}
+
+.form-label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+.continue-button{
+    margin-top:25px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    width: 400px;
+    margin-left: 30px;
+    height:55px;
+    border-radius: 75px;
+
+}
+.with-google-bar{
+    display: flex;
+    flex-direction: row;
+    width: 445px;
+    height: 58.9px;
+    border: 0.934874px solid #000000;
+    padding:10px 25px 10px 25px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+.with-google-bar:hover{
+    cursor: pointer;
+    border:1px solid blue;
+    transition-duration: 0.3s;
+}
+.g-icon{
+ width:36px;
+ height:36px;
+ margin-right: 45px;
+}
+.g-text{
+    font-weight: normal;
+    font-size: 22.5608px;
+    line-height: 37px;
+    text-align: center;
+}

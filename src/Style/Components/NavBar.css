@@ -1,0 +1,52 @@
+.NavBar{
+    height: 110px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+flex-direction: row;
+padding:15px 30px 15px 30px;
+border: 2px solid black;
+
+
+}
+.nav-bar-logo{
+    font-weight: 800;
+font-size: 32.0172px;
+/* line-height: 48px; */
+margin-left: 50px;
+margin-right: 400px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+text-align: center;
+}
+.nav-search{
+    width: 660px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: rgba(196, 196, 196, 0.25);
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 70px;
+    border:0.5px solid black;
+    border-radius: 10px;
+}
+.navbar-button{
+    height: 40px;
+    width: 120px;
+    border-radius: 75px;
+    margin-right: 35px;
+    border:1px solid black;
+    font-size: 16px;
+margin-top: 25px;
+    font-weight: 400;
+}
+.secondary{
+     background-color: white;
+
+}
+.primary{
+    background-color: black;
+    color: white;
+}

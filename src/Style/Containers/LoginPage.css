@@ -1,0 +1,77 @@
+html , body{
+    height: 100%;
+}
+.login-page{
+    padding:50px 60px 50px 60px;
+    display: flex;
+    flex-direction: row;
+    height:90vh ;
+    
+}
+.left-section{
+    width:70%;
+    background-color: #c4c4c4;
+   border:3px solid black
+}
+.login-logo{
+display: flex;
+flex-direction: column;
+text-align: center;
+margin-top: 22vh;
+font-size: 160px;
+font-weight: 800;
+font-family:"poppins";
+font-style: normal;
+}
+.right-section{
+    padding-top: 22vh;
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    background-color: white;
+    
+}
+.login-form{
+    border-radius: 10px;
+    /* padding:70px; */
+    background-color: white;
+    
+    height: 200px;
+}
+.form-group{ 
+    display: flex;
+    flex-direction: column;
+}
+.form-control{
+    padding-left: 20px;
+    height:60px;
+    border-radius: 5px;
+    width:445px;
+    background: rgba(196, 196, 196, 0.25);
+    border: 1px solid rgba(196, 196, 196, 0.25);
+    font-size: 16px;
+    font-weight: 400;
+    /* innershadows */
+    box-shadow: inset 4px -4px 8px rgba(196, 196, 196, 0.1), inset -4px 4px 8px rgba(196, 196, 196, 0.1);
+    margin-bottom: 10px;
+
+}
+
+.form-label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+.submit-button{
+    margin-top:20px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    width: 450px;
+    height:55px;
+    border-radius: 75px;
+
+}
