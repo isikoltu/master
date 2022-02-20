@@ -18,7 +18,6 @@ function HomePage() {
     const slideRight=(e)=>{
         myRef.current.scrollLeft +=300;
     }
-
     const gameList=[
         {
             id:1,
